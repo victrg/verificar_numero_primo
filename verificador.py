@@ -12,6 +12,6 @@ if __name__ == "__main__":
         if eh_primo(n):
             print(f"{n} é um número primo.")
         else:
-            print(f"{n} não é um número primo.")
+            print(f"{n} não é primo.")
     except ValueError:
         print("Por favor, digite um número inteiro.")
