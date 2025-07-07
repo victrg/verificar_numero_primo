@@ -8,10 +8,10 @@ def eh_primo(numero):
 
 if __name__ == "__main__":
     try:
-        n = int(input("Digite um número: "))
+        n = int(input("Digite um número de 1 a 100: "))
         if eh_primo(n):
-            print(f"{n} é um número primo.")
+            print(f"{n} é primo.")
         else:
             print(f"{n} não é primo.")
     except ValueError:
-        print("Por favor, digite um número inteiro.")
+        print("Por favor, digite outro número inteiro.")
